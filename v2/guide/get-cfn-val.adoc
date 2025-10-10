@@ -281,7 +281,7 @@ export class MyFirstStack extends cdk.Stack {
     // Set a default parameter name
     const bucketNameParam = new cdk.CfnParameter(this, 'bucketNameParam', {
       type: 'String',
-      default: 'myfirststackdefaultbucketname'
+      default: 'amzn-s3-demo-bucket1'
     });
 
     // Define an S3 bucket
@@ -299,7 +299,7 @@ export class MySecondStack extends cdk.Stack {
     // Set a default parameter name
     const bucketNameParam = new cdk.CfnParameter(this, 'bucketNameParam', {
       type: 'String',
-      default: 'mysecondstackdefaultbucketname'
+      default: 'amzn-s3-demo-bucket2'
     });
 
     // Define an S3 bucket
